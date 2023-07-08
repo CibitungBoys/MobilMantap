@@ -1,11 +1,605 @@
+/* Login Css */
+.login {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: darkslategray;
+}
+
+.global-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-form {
+  width: 380px;
+  height: 450px;
+  padding: 20px;
+  background-color: darkslategray;
+  color: white;
+}
+
 .sampul {
-    width: 70px;
+  width: 70px;
 }
 
 .table > tbody > tr > * {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
-.default_img {
-    width: 70px;
+/* navbar */
+.navbar {
+  width: 100%;
+  background-color: #5c5a5a;
+}
+/* Css Untuk Home */
+/*  */
+/*  */
+/*  */
+
+.custom-navbar {
+  width: 100%;
+  height: 70px;
+  background-color: #d9d9d9;
+  /* Ubah warna sesuai kebutuhan*/
+}
+
+.custom-brand1 {
+  font-size: 25px;
+  font-weight: 700;
+  margin-left: 50px;
+  margin-right: 550px;
+}
+
+.custom-home {
+  font-size: 25px;
+  font-weight: 400;
+  margin-right: 5px;
+}
+
+.custom-about {
+  font-size: 25px;
+  font-weight: 400;
+  margin-right: 5px;
+}
+
+.custom-contact {
+  font-size: 25px;
+  font-weight: 400;
+  margin-right: 5px;
+}
+
+.custom-car-listing {
+  font-size: 25px;
+  font-weight: 400;
+  margin-right: 5px;
+}
+
+.layout1css {
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.layoutgambar {
+  width: 100%; /* Ubah ukuran sesuai kebutuhan */
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+}
+
+.layout2css {
+  background-color: rgba(
+    17,
+    17,
+    17,
+    0.5
+  ); /* Ganti dengan nilai RGBA yang diinginkan */
+  color: #ffffff; /* Ganti dengan kode warna yang diinginkan */
+  width: 700px;
+  position: absolute;
+  top: 50px;
+  margin-right: 677px;
+}
+
+.layout2css p {
+  padding: 20px;
+}
+
+.text-css2 {
+  font-family: Hanalei Fill;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 35spx;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.text-css3 {
+  font-family: Hanalei Fill;
+  font-size: 18px;
+}
+
+@font-face {
+  font-family: "Familjen Grotesk Bold";
+  src: url("../fonts/FamiljenGrotesk-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Familjen Grotesk Regular";
+  src: url("../fonts/FamiljenGrotesk-Regular.ttf") format("truetype");
+}
+
+.box1 {
+  width: 70%;
+  background-color: #d9d9d9;
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.box1.huge1 {
+  width: 1300px;
+  margin-bottom: 40px;
+}
+
+.box1.huge1 .content1 {
+  display: flex;
+}
+
+.box1.huge1 .content1 .text1 {
+  flex: 1;
+  text-align: center;
+  margin-right: 55px; /* Tambahkan jarak kanan antara text1 dan image1 */
+}
+
+.box1.huge1 .content1 .image1 {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.box1.huge1 .content1 .image1 img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 5px;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 35px;
+}
+
+.box1 {
+  color: #d9d9d9;
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.box1 p {
+  color: #000000;
+  font-size: 18px;
+}
+
+.box2 {
+  width: 70%;
+  background-color: #d9d9d9;
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.box2.huge2 {
+  width: 1300px;
+  margin-bottom: 40px;
+}
+
+.box2.huge2 .content2 {
+  display: flex;
+  flex-direction: row-reverse; /* Mengubah arah tampilan menjadi sebaliknya */
+}
+
+.box2.huge2 .content2 .text2 {
+  flex: 1;
+  text-align: center;
+  margin-left: 55px; /* Mengubah jarak kiri antara text2 dan image2 */
+}
+
+.box2.huge2 .content2 .image2 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Mengubah posisi gambar ke kiri */
+}
+
+.box2.huge2 .content2 .image2 img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 5px;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2px;
+}
+
+.box2 {
+  color: #d9d9d9;
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.box2 span {
+  color: #000000;
+  font-size: 18px;
+}
+
+/* Footer  */
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footerbg {
+  width: 100%; /* Ubah ukuran sesuai kebutuhan */
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+}
+
+section {
+  width: 100%;
+}
+
+.shadow {
+  width: 80%;
+  height: 50%;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background-color: rgba(17, 17, 17, 0.5);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin: auto;
+  position: relative;
+  top: 20%;
+  transform: translateY(50%);
+}
+
+.desk {
+  color: #fff;
+  text-align: center;
+  font-size: 38px;
+  font-family: Hanalei Fill;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.deskripsi {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -10px;
+  color: #fff;
+  padding: 10px;
+}
+
+.desk1,
+.desk2,
+.desk3 {
+  flex-basis: 30%;
+  text-align: center;
+}
+
+.container-my-5 {
+  width: 100%;
+}
+
+/* Detail.php */
+.card {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+.detail h1 {
+  text-align: center;
+}
+
+/* contact us */
+.container1 {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.contact-form {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.form-group textarea {
+  height: 120px;
+}
+
+.form-group button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.form-group button:hover {
+  background-color: #45a049;
+}
+.success-message {
+  background-color: #d4edda;
+  color: #155724;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 3px;
+}
+
+.team-members {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-member {
+  text-align: center;
+}
+
+.team-member img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.ot {
+  text-align: center;
+  text-decoration: underline;
+}
+
+
+/* contact us */
+/* Input Field CSS */
+.datainput {
+  position: relative;
+  margin: 5px 0 20px
+}
+
+.datainput p {
+  font-size: 12px;
+  background: #eee;
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: .5rem
+}
+
+.whatsapp-form textarea {
+  min-height: 120px
+}
+
+.datainput select {
+  padding: 12px 0;
+  color: #555;
+  font-size: 14px;
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+  outline: none;
+  background: #fff
+}
+
+.datainput input,
+.datainput textarea {
+  font-size: 15px;
+  padding: 15px 0;
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ddd
+}
+
+.datainput input:focus,
+.datainput textarea:focus {
+  outline: none
+}
+
+.datainput label {
+  color: #999;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  pointer-events: none;
+  left: 0;
+  top: 18px;
+  transition: .2s ease all
+}
+
+.datainput input:focus~label,
+.datainput input:valid~label,
+.datainput textarea:focus~label,
+.datainput textarea:valid~label {
+  top: -10px;
+  font-size: 14px;
+  color: #21a51f
+}
+
+#notif-license span {
+  font-size: 40px
+}
+
+#notif-license {
+  display: none;
+  position: fixed
+}
+
+.bar {
+  position: relative;
+  display: block;
+  width: 100%
+}
+
+.bar:before,
+.bar:after {
+  content: '';
+  height: 2px;
+  width: 0;
+  bottom: 1px;
+  position: absolute;
+  background: #21a51f;
+  transition: .2s ease all
+}
+
+.bar:before {
+  left: 50%
+}
+
+.bar:after {
+  right: 50%
+}
+
+.datainput input:focus~.bar:before,
+.datainput input:focus~.bar:after,
+.datainput textarea:focus~.bar:before,
+.datainput textarea:focus~.bar:after {
+  width: 50%
+}
+
+.indigox {
+  background: #3f51b5
+}
+
+.orangex {
+  background: #ff9800
+}
+
+.pinkx {
+  background: #e91e63
+}
+
+.bluex {
+  background: #2196F3
+}
+
+.purplex {
+  background: #9c27b0
+}
+
+.redx {
+  background: #F44336
+}
+
+.greenx {
+  background: #4CAF50
+}
+
+.highlight {
+  position: absolute;
+  height: 50%;
+  width: 100px;
+  top: 25%;
+  left: 0;
+  pointer-events: none;
+  opacity: .5
+}
+
+.datainput input:focus~.highlight,
+.datainput textarea:focus~.highlight {
+  animation: inputHighlighter .3s ease
+}
+
+.datainput input:focus~label,
+.datainput input:valid~label,
+.datainput textarea:focus~label,
+.datainput textarea:valid~label {
+  top: -10px;
+  font-size: 13px;
+  color: #21a51f
+}
+
+/* Default Whatsapp Form CSS by www.idblanter.com */
+form.whatsapp-form {
+  box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
+  border-radius: .5rem;
+  padding: 20px;
+  box-sizing: border-box;
+  color: #444;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.whatsapp-form a.send_form {
+  color: #fff;
+  background: #21a51f;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 25px;
+  border-radius: .3rem;
+  font-weight: 700;
+  letter-spacing: .5px;
+  font-size: 15px;
+}
+
+#text-info span {
+  display: block;
+  padding: 10px 15px;
+  text-align: center;
+  font-weight: 700;
+  margin: 15px 0;
+  border-radius: .5rem;
+}
+
+#text-info span.yes {
+  background: #c6ffc5;
+  color: #0ea904;
+}
+
+#text-info span.no {
+  background: #ffc5c5;
+  color: #ce0404;
 }

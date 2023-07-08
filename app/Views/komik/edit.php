@@ -4,14 +4,14 @@
 <div class="container">
     <div class="row">
         <div class="col-8">
-            <h2 class="my-3">Form Ubah Data Komik</h2>
+            <h2 class="my-3">Form Ubah Data Mobil</h2>
 
             <form action="/komik/update/<?=$komik['id'] ; ?>" method="post" enctype="multipart/form-data">
                 <?=csrf_field() ; ?>
                 <input type="hidden" name="slug" value="<?=$komik['slug'] ; ?>">
                 <input type="hidden" name="sampulLama" value="<?=$komik['sampul'] ; ?>">
                 <div class="row mb-3">
-                    <label for="judul" class="col-sm-2 col-form-label">judul</label>
+                    <label for="judul" class="col-sm-2 col-form-label">Mobil</label>
                     <div class="col-sm-10">
                         <input type="text" class="form-control " id="judul" name="judul" autofocus
                             value="<?= (old('judul'))? old('judul') :$komik['judul'] ; ?>">
@@ -27,21 +27,21 @@
                     </div>
                 </div>
                 <div class="row mb-3">
-                    <label for="penulis" class="col-sm-2 col-form-label">penulis</label>
+                    <label for="penulis" class="col-sm-2 col-form-label">Type</label>
                     <div class="col-sm-10">
                         <input type="text" class="form-control" id="penulis" name="penulis"
                             value="<?= (old('penulis'))? old('penulis') :$komik['penulis'] ; ?>">
                     </div>
                 </div>
                 <div class="row mb-3">
-                    <label for="penerbit" class="col-sm-2 col-form-label">penerbit</label>
+                    <label for="penerbit" class="col-sm-2 col-form-label">Harga</label>
                     <div class="col-sm-10">
                         <input type="text" class="form-control" id="penerbit" name="penerbit"
                             value="<?= (old('penerbit'))? old('penerbit') :$komik['penerbit'] ; ?>">
                     </div>
                 </div>
                 <div class=" row mb-3">
-                    <label for="sampul" class="col-sm-2 col-form-label">sampul</label>
+                    <label for="sampul" class="col-sm-2 col-form-label">Gambar</label>
                     <div class="colo-sm-2">
                         <div class="default_img">
                             <img src="/img/<?=$komik['sampul'] ; ?>" class="img-thumbnail img-preview">
