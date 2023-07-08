@@ -20,7 +20,8 @@
 ## Register
 ![Cuplikan web_8-7-2023_17187_mobilmantap 000webhostapp com](https://github.com/CibitungBoys/MobilMantap/assets/137902752/028f5585-d007-4662-a433-1f7b706917d9)
 ## Register Berhasil
-![Cuplikan web_8-7-2023_17187_mobilmantap 000webhostapp com](https://github.com/CibitungBoys/MobilMantap/assets/137902752/8e61638e-5619-4880-a4a4-e4f243520b40)
+![Cuplikan web_8-7-2023_17170_mobilmantap 000webhostapp com](https://github.com/CibitungBoys/MobilMantap/assets/137902752/761995ba-6a9f-439f-8c6b-fa355dc18848)
+
 
 
 ## Database berhasil masuk
