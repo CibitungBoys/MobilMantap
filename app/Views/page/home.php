@@ -58,4 +58,46 @@
             </div>
         </div>
 
-        
+        <section>
+            <div class="footerbg" style="background-image: url('<?= base_url('img/bg4_avanza.jpeg') ?>')">
+                <div class="shadow">
+                    <div class="desk">
+                        <h1>MobilMantap.com</h1>
+                    </div>
+                    <div class="deskripsi">
+                        <div class="desk1">
+                            <h1>Foto Berkualitas</h1>
+                            <p>
+                                Mobilmantap.com menyediakan foto-foto mobil yang berkualitas
+                                tinggi. Gambar-gambar ini memberikan tampilan visual yang jelas
+                                dan detail tentang eksterior dan interior mobil, membantu
+                                pengguna dalam proses pemilihan.
+                            </p>
+                        </div>
+                        <div class="desk2">
+                            <h1>Harga terjangkau</h1>
+                            <p>
+                                Situs web ini menawarkan harga mobil yang kompetitif.
+                                Mobilmantap.com berusaha memberikan nilai yang baik kepada
+                                pengguna dengan menyediakan mobil dengan harga yang sesuai
+                                dengan kondisi dan kualitasnya.
+                            </p>
+                        </div>
+                        <div class="desk3">
+                            <h1>Harga terjangkau</h1>
+                            <p>
+                                Setiap iklan mobil di Mobilmantap.com dilengkapi dengan
+                                informasi kontak yang jelas, seperti nomor telepon atau email
+                                penjual.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+
+
+
+<?= $this->endSection(); ?>
