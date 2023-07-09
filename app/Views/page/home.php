@@ -39,7 +39,24 @@
         </div>
     </div>
 
-    
+    <div class="container2">
+        <div class="box2 huge2">
+            <div class="content2">
+                <div class="text2">
+                    <p>
+                        <span class="text-css2 ">Deskripsi dan Informasi Detai</span><br>
+                        <span class="text-css3 ">Setiap mobil yang terdaftar di Mobilmantap.com dilengkapi dengan
+                            deskripsi dan informasi
+                            detail yang lengkap. Ini termasuk spesifikasi teknis, performa mesin, fitur interior dan
+                            eksterior, riwayat perawatan, dan sejarah pemakaian jika tersedia. Informasi ini membantu
+                            pengguna untuk memperoleh pemahaman yang mendalam tentang mobil yang mereka minati</span>
+                    </p>
+                </div>
+                <div class="image2">
+                    <img src="<?= base_url('img/bg_avanza.jpeg') ?>" alt="Gambar2">
+                </div>
+            </div>
+        </div>
 
         <section>
             <div class="footerbg" style="background-image: url('<?= base_url('img/bg4_avanza.jpeg') ?>')">
