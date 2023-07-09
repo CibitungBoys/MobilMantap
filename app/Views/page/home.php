@@ -21,6 +21,23 @@
 </div>
 
 
+<div class="container1">
+    <div class="box1 huge1">
+        <div class="content1">
+            <div class="text1">
+                <p>
+                    <span class="text-css2 ">Koleksi Mobil Lengkap</span><br>
+                    <span class="text-css3 ">Situs web ini menawarkan koleksi mobil yang luas, mencakup berbagai merek
+                        dan model terkemuka.
+                        Pengguna dapat menemukan mobil baru dan bekas dengan berbagai pilihan, termasuk mobil keluarga,
+                        mobil sport, SUV, sedan, dan lainnya.</span>
+                </p>
+            </div>
+            <div class="image1">
+                <img src="<?= base_url('img/bg2_kijang.jpeg') ?>" alt="Gambar1">
+            </div>
+        </div>
+    </div>
 
     <div class="container2">
         <div class="box2 huge2">
