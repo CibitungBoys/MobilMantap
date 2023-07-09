@@ -2,18 +2,7 @@
 
 
 <?= $this->section('content'); ?>
-<div class="layout1css">
-    <div class="layoutgambar" style="background-image: url('<?= base_url('img/bg_kijang2.jpeg') ?>')"></div>
-    <div class="layout2css">
-        <p>
-            <span class="text-css2 ">MobilMantap.com</span><br>
-            <span class="text-css3 ">adalah platform online yang menyediakan beragam pilihan mobil baru dan bekas dengan
-                kualitas terjamin.
-                MobilMantap.com juga menawarkan fitur lengkap seperti deskripsi detail, foto berkualitas tinggi, harga
-                kompetitif,
-                dan informasi kontak yang jelas untuk setiap kendaraan. Dengan keamanan transaksi yang terjamin,
-                MobilMantap.com menjadi tujuan terpercaya bagi para calon pembeli mobil.</span>
-        </p>
+
         <a href="/komik/" class="btn btn-success">Klik Selengkapnya</a>
 
     </div>
